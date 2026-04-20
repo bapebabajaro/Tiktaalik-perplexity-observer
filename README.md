@@ -107,10 +107,16 @@ The observer is **passive**. Worker does NOT grade task correctness
 
 ## Session index
 
-| Session ID | Date | Duration | Death reason | Actions |
-|---|---|---|---|---|
-| `5d47bce3-9680-4224-9c68-37392777cf8f` | 2026-04-20 | ~63 min | task_complete | 150 |
+Listed chronologically, oldest first:
 
+| Session ID | Date | Duration | Tool-ticks | Observer | Task context |
+|---|---|---|---|---|---|
+| [`b812844d-...`](./b812844d-211e-4e05-93e3-814737663653/) | 2026-04-19 | ~17 min | 203 | `observer-poll.js` (15s diff) | Stellaworkbook LMI-bildanalys |
+| [`1e076abc-...`](./1e076abc-572a-4fe2-9ae6-3f3606aa8565/) | 2026-04-19 | ~22 min | 164 | `observer-detailed.js` v2 (5 Hz) | Stellaworkbook "pusha rätt bild" |
+| [`5d47bce3-...`](./5d47bce3-9680-4224-9c68-37392777cf8f/) | 2026-04-20 | ~63 min | 184 | `observer-detailed.js` (5 Hz) | path-drift-gates (task_complete) |
+
+Session `1e076abc` is the only one with a full Perplexity iteration cycle
+archived (`PERPLEXITY_ANALYSIS.md` → `PERPLEXITY_REPLY.md` → `PERPLEXITY_ROUND_2.md`).
 Updated on each mirror sync.
 
 ---
