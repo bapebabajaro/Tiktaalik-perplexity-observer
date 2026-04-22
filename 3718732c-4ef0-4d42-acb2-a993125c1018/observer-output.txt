@@ -1,0 +1,9 @@
+[07:49:00.975] OBSERVER_DETAILED_START session=3718732c-4ef0-4d42-acb2-a993125c1018 interval=200ms (5.0Hz)
+[07:49:00.981] Baseline (pre-observation): ribo=225 auto-ev=25 auto-reg=25
+[07:49:00.981] Observer will emit every new tick individually. Detail-mode ON.
+[07:49:08.046] CWD_SHIFT from="(none)" to="C:\Users\holmq\.claude\tiktaalik\ribosome" position_ratio=0.02 dumb_zone=false
+[07:49:08.046] TICK #1 tool=Bash
+[07:49:13.792] TICK #2 tool=Bash
+[07:49:14.495] TICK #3 tool=Bash
+[GATE_STATE] 2026-04-22T07:49:14.283Z | OBSERVER_REGISTERED | chef-observer/observer-detailed.js | target_session=3718732c-4ef0-4d42-acb2-a993125c1018 observer_pid=background_bash_id_bzol39pj4 target_pid=11904 baseline_ribo=225 run=2 schema=extended
+[07:49:24.460] TICK #4 tool=Bash
